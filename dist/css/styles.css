@@ -256,12 +256,13 @@ nav a {
 .footer{
     text-align: center;
     width:100%;
-    background-color: #65617d;
+    background-color: #4c4b56;
+    padding: 20px;
 }
-.footer-text{
-    color:#F0EFFF;
+.copyright{
     margin-bottom: 30px;
-    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
 }
 .social-media-links{
     text-decoration: none;
