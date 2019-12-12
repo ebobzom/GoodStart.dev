@@ -245,3 +245,59 @@ nav a {
     width: 150px;
     margin-left: 20px;
 }
+
+
+/* Footer */
+.connect-with-us{
+    color: var(--color-text-secondary);
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.footer{
+    text-align: center;
+    width:100%;
+    background-color: #65617d;
+}
+.footer-text{
+    color:#F0EFFF;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+.social-media-links{
+    text-decoration: none;
+    display: inline-block;
+    display:flex;
+    justify-content: center;
+}
+
+.fa-twitter{
+    padding: 10px;
+    margin:10px;
+    background-color: #43a1f2;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+    padding: 10px;
+    margin:10px;
+    background-color: #3b5998;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    padding: 10px;
+    margin:10px;
+    background-color: #a540b7;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+.fa-linkedin-in{
+    padding: 10px;
+    margin:10px;
+    background-color: #0e76a8;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
