@@ -253,6 +253,13 @@ nav a {
     font-size: 1.7rem;
     padding-top: 10px;
 }
+
+.horizontal-line{
+    border: 0;
+    height: 1px;
+    background: #333; 
+    margin: 3px;
+}
 .footer{
     text-align: center;
     width:100%;
