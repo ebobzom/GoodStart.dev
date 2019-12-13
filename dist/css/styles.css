@@ -282,6 +282,7 @@ nav a {
 .fa-facebook-f{
     padding: 10px;
     margin:10px;
+    width: 22px;
     background-color: #3b5998;
     color:var(--color-text-secondary);
     border-radius: 50%;
