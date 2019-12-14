@@ -302,7 +302,7 @@ nav a {
 .fa-facebook-f{
     padding: 10px;
     margin:10px;
-    width: 22px;
+    font-size: 18px;
     background-color: #3b5998;
     color:var(--color-text-secondary);
     border-radius: 50%;
@@ -311,6 +311,7 @@ nav a {
 .fa-instagram{
     padding: 10px;
     margin:10px;
+    font-size: 18px;
     background-color: #a540b7;
     color:var(--color-text-secondary);
     border-radius: 50%;
@@ -319,6 +320,7 @@ nav a {
 .fa-linkedin-in{
     padding: 10px;
     margin:10px;
+    font-size: 18px;
     background-color: #0e76a8;
     color:var(--color-text-secondary);
     border-radius: 50%;
