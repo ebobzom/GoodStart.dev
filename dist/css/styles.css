@@ -89,8 +89,7 @@ nav a {
     transition: color 0.2s ease-in-out;
 }
 
-<<<<<<< HEAD
-=======
+
 #hamburger-menu {
     display: none;
 }
@@ -100,7 +99,6 @@ nav a {
 }
 
 
->>>>>>> 1016d5d0146a6c9828c451a55bc502c66da78845
 /* Styles for main banner div */
 
 .bnt-illu{
@@ -261,7 +259,6 @@ nav a {
     margin-left: 20px;
 }
 
-<<<<<<< HEAD
 
 /* Footer */
 .connect-with-us{
@@ -326,7 +323,7 @@ nav a {
     color:var(--color-text-secondary);
     border-radius: 50%;
 }
-=======
+
 @media only screen and (max-device-width: 764px) {
     #hamburger-menu {
         display: block;
@@ -390,4 +387,4 @@ nav a {
         width: 150px;
     }
 }
->>>>>>> 1016d5d0146a6c9828c451a55bc502c66da78845
+
