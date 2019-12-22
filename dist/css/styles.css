@@ -14,6 +14,8 @@
     --color-text-secondary: #EEEEEE;
     --color-text-highlight: #EE8E9E;
     --color-text-heading: #283593;
+    --color-label-primary: #3A3768;
+    --color-input-background: #EAECF0;
 }
 
 
@@ -32,6 +34,9 @@
     width: 80px;
     /* This is added to 50px of padding */
 }
+.btn_large {
+    width: 186px;
+}
 
 .btn_secondary {
     background: white;
@@ -44,17 +49,17 @@
 /* basic different text styles */
 
 .text_prim {
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: var(--color-primary);
 }
 
 .text_sec {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--color-primary);
 }
 
 .text_slogan {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: var(--color-text-primary);
 }
 
@@ -74,7 +79,7 @@ header {
 /* styles for logo image */
 
 .logo {
-    height: 25px;
+    height: 40px;
     width: auto;
 }
 
@@ -82,13 +87,13 @@ header {
 /* Setting up the links */
 
 nav a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--color-text-primary);
     text-decoration: none;
     margin: 15px;
+    font-size: 1.5rem;
     transition: color 0.2s ease-in-out;
 }
-
 
 #hamburger-menu {
     display: none;
@@ -100,10 +105,6 @@ nav a {
 
 
 /* Styles for main banner div */
-
-.bnt-illu{
-    margin-top: 60px;
-}
 
 .bnr {
     width: 80vw;
@@ -155,10 +156,6 @@ nav a {
 
 
 /* styles for the main div containing the job listings */
-
-.lst-head{
-    margin-top: 50px;
-}
 
 .jblst {
     margin: 50px auto;
@@ -258,7 +255,108 @@ nav a {
     width: 150px;
     margin-left: 20px;
 }
-
+/*
+Utilities
+ */
+.text-ruler {
+    display: flex;
+    line-height: 1em;
+}
+.text-ruler::before, .text-ruler::after{
+    content: '';
+    display: inline-block;
+    flex-grow: 1;
+    margin-top: 0.5em;
+    background: #000;
+    height: 1px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* Styles for signup screen start */
+.header-label {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--color-label-primary);
+}
+.signup-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.signup-main {
+    display: flex;
+    flex-direction: column;
+}
+.signup-main h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px 0;
+    color: var(--color-text-heading);
+}
+.signup-main p {
+    font-size: 30px;
+    color: var(--color-label-primary);
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+.signup-form .input {
+    height: 63px;
+    background: var(--color-input-background);
+    margin-top: 26px;
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    padding-left: 25px;
+}
+.signup-form .input::placeholder {
+    color: var(--color-text-heading);
+    font-size: 25px;
+    font-weight: 300;
+}
+.terms {
+    display: flex;
+    margin-top: 26px;
+}
+.terms label {
+    font-size: 15px;
+    margin-left: 5px;
+    color: var(--color-text-heading);
+}
+.terms a,
+.terms a:visited,
+.terms a:active{
+    color: var(--color-text-highlight);
+    text-decoration: none;
+}
+.terms a:hover {
+    text-decoration: underline;
+}
+.signup-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 43px;
+}
+.signup-action > div {
+    margin: 12px 0;
+}
+.create-container {
+    display: flex;
+    justify-content: center;
+}
+.external-actions {
+    display: flex;
+    justify-content: space-between;
+}
+.external-actions > .btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+/* Styles for signup screen end*/
 
 /* Footer */
 
@@ -280,7 +378,6 @@ nav a {
     align-items: center;
     width:100%;
     background-color: #4c4b56;
-    padding: 20px;
 }
 
 .footer li{
@@ -361,7 +458,6 @@ nav a {
 
 .footer-copyright {
     background-color: #56565c;
-    padding: 30px;
     width: 100%;
 }
 
@@ -384,7 +480,7 @@ nav a {
     text-align: center;
 }
 
-@media only screen and (max-device-width: 764px) {
+@media only screen and (max-device-width: 840px) {
     #hamburger-menu {
         display: block;
         float: right;
@@ -392,8 +488,8 @@ nav a {
     }
 
     .logo {
-        width: 30vw;
-        height: auto;
+        width: auto;
+        height: 25px;
     }
 
     .bnr-illu {
@@ -428,7 +524,7 @@ nav a {
 
     .btn {
         color: var(--color-text-secondary);
-        padding: 5px 10px;
+        padding: 10px;
         border-radius: 30px;
         font-size: .7rem;
         text-align: center;
@@ -446,5 +542,43 @@ nav a {
         color: var(--color-primary);
         width: 150px;
     }
-}
+    .btn_large {
+        width: 150px;
+    }
 
+    .header-label, .signup-art {
+        display: none;
+    }
+    .signup-section {
+        margin: 0;
+        padding: 10px;
+    }
+    .signup-main h1 {
+        font-size: 25px;
+    }
+    .signup-main p {
+        font-size: 15px;
+    }
+    .signup-form .input {
+        height: 50px;
+        margin-top: 26px;
+        padding-left: 10px;
+    }
+    .signup-form .input::placeholder {
+        font-size: 20px;
+    }
+    .terms label {
+        font-size: 12px;
+    }
+    .signup-action {
+        margin-top: 20px;
+    }
+    .external-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    .external-actions .icon-button {
+        font-size: 0.7rem;
+        margin: 5px 0;
+    }
+}
