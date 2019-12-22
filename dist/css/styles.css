@@ -44,17 +44,17 @@
 /* basic different text styles */
 
 .text_prim {
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: var(--color-primary);
 }
 
 .text_sec {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--color-primary);
 }
 
 .text_slogan {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: var(--color-text-primary);
 }
 
@@ -82,13 +82,13 @@ header {
 /* Setting up the links */
 
 nav a {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--color-text-primary);
     text-decoration: none;
     margin: 15px;
-    font-size: 1.5rem;
     transition: color 0.2s ease-in-out;
 }
+
 
 #hamburger-menu {
     display: none;
@@ -100,6 +100,10 @@ nav a {
 
 
 /* Styles for main banner div */
+
+.bnt-illu{
+    margin-top: 60px;
+}
 
 .bnr {
     width: 80vw;
@@ -151,6 +155,10 @@ nav a {
 
 
 /* styles for the main div containing the job listings */
+
+.lst-head{
+    margin-top: 50px;
+}
 
 .jblst {
     margin: 50px auto;
@@ -251,6 +259,131 @@ nav a {
     margin-left: 20px;
 }
 
+
+/* Footer */
+
+.footer-container{
+    color: var(--color-text-secondary);
+    font-size: 1.7rem;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width:100%;
+}
+
+.footer-container li a{
+    line-height: 1.2;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    background-color: #4c4b56;
+    padding: 20px;
+}
+
+.footer li{
+    font-size: 16px;
+}
+.about-us{
+    color: var(--color-text-secondary);
+    margin: 10px;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.career{
+    color: var(--color-text-secondary);
+    margin: 10px;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.feedback{
+    color: var(--color-text-secondary);
+    margin: 10px;
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.social-media{
+    color:#F0EFFF;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-media-links{
+    text-decoration: none;
+    display: inline-block;
+    display:flex;
+    justify-content: center;
+}
+
+.fa-twitter{
+    padding: 10px;
+    margin:10px;
+    font-size: 18px;
+    background-color: #43a1f2;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+    padding: 10px;
+    margin:10px;
+    font-size: 18px;
+    background-color: #3b5998;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    padding: 10px;
+    margin:10px;
+    font-size: 18px;
+    background-color: #a540b7;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+.fa-linkedin-in{
+    padding: 10px;
+    margin:10px;
+    font-size: 18px;
+    background-color: #0e76a8;
+    color:var(--color-text-secondary);
+    border-radius: 50%;
+}
+
+/* Footer Copyright */
+
+.footer-copyright {
+    background-color: #56565c;
+    padding: 30px;
+    width: 100%;
+}
+
+.footer-copyright ul{
+    display: flex; 
+    justify-content: center;
+}
+
+.footer-copyright li {
+    margin: 10px;
+}
+.footer-copyright li a{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.copyright{
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
 @media only screen and (max-device-width: 764px) {
     #hamburger-menu {
         display: block;
@@ -314,3 +447,4 @@ nav a {
         width: 150px;
     }
 }
+
