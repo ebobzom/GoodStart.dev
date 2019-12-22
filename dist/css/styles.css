@@ -266,8 +266,13 @@ nav a {
     color: var(--color-text-secondary);
     font-size: 1.7rem;
     padding-top: 10px;
+    margin-bottom: 20px;
+    width:100%;
 }
 
+.footer-container li a{
+    line-height: 1.2;
+}
 .footer{
     display: flex;
     flex-direction: row;
@@ -307,31 +312,6 @@ nav a {
     margin: 10px;
     text-align: center;
     font-size: 30px;
-}
-
-.footer-copyright {
-    background-color: #56565c;
-    padding: 30px;
-    width: 100%;
-    text-align: center;
-}
-
-.footer-copyright ul{
-    display: flex; 
-}
-
-.footer-copyright li {
-    margin: 10px;
-}
-.footer-copyright li a{
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-}
-
-.copyright{
-    margin-bottom: 30px;
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
 }
 
 .social-media-links{
@@ -375,6 +355,33 @@ nav a {
     background-color: #0e76a8;
     color:var(--color-text-secondary);
     border-radius: 50%;
+}
+
+/* Footer Copyright */
+
+.footer-copyright {
+    background-color: #56565c;
+    padding: 30px;
+    width: 100%;
+}
+
+.footer-copyright ul{
+    display: flex; 
+    justify-content: center;
+}
+
+.footer-copyright li {
+    margin: 10px;
+}
+.footer-copyright li a{
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+.copyright{
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
 }
 
 @media only screen and (max-device-width: 764px) {
