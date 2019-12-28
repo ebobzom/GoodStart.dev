@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const schema = mongoose.Schema;
 
 // initiate the Schema for the user to make the model of later
+// This Schema is for the user but this is just the start. This will be modified later when you add passport
 const userSchema = new schema({
   firstName: {
     type: String
